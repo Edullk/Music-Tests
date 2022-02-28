@@ -1,14 +1,11 @@
-/**
- * @format
- */
+ import 'react-native';
+ import React from 'react';
+ import App from '../App';
+ import { shallow } from 'enzyme';
 
-import 'react-native';
-import React from 'react';
-import App from '../App';
-
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
-
-it('renders correctly', () => {
-  renderer.create(<App />);
-});
+ jest.mock('react-native/Libraries/EventEmitter/NativeEventEmitter');
+ 
+ it('renders correctly', () => {
+   const wrapper = shallow(<App />);
+   expect(wrapper).toMatchSnapshot();
+ });
