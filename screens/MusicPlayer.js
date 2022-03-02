@@ -24,6 +24,7 @@ import Slider from '@react-native-community/slider';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import songs from '../model/data';
+import { Colors } from '../assets/colors';
 
 const {width, height} = Dimensions.get('window');
 
@@ -205,8 +206,8 @@ const MusicPlayer = () => {
             value={progress.position}
             minimumValue={0}
             maximumValue={progress.duration}
-            thumbTintColor="#FFD369"
-            minimumTrackTintColor="#FFD369"
+            thumbTintColor={Colors.primary}
+            minimumTrackTintColor={Colors.primary}
             maximumTrackTintColor="#fff"
             onSlidingComplete={async value => {
               await TrackPlayer.seekTo(value);
@@ -231,7 +232,7 @@ const MusicPlayer = () => {
         {/* music control */}
         <View style={style.musicControlsContainer}>
           <TouchableOpacity onPress={skipToPrevious}>
-            <Ionicons name="play-skip-back-outline" size={35} color="#FFD369" />
+            <Ionicons name="play-skip-back-outline" size={35} color={Colors.primary} />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => togglePlayBack(playBackState)}>
             <Ionicons
@@ -241,14 +242,14 @@ const MusicPlayer = () => {
                   : 'ios-play-circle'
               }
               size={75}
-              color="#FFD369"
+              color={Colors.primary}
             />
           </TouchableOpacity>
           <TouchableOpacity onPress={skipToNext}>
             <Ionicons
               name="play-skip-forward-outline"
               size={35}
-              color="#FFD369"
+              color={Colors.primary}
             />
           </TouchableOpacity>
         </View>
@@ -265,7 +266,7 @@ const MusicPlayer = () => {
             <MaterialCommunityIcons
               name={`${repeatIcon()}`}
               size={30}
-              color={repeatMode !== 'off' ? '#FFD369' : '#888888'}
+              color={repeatMode !== 'off' ? Colors.primary : '#888888'}
             />
           </TouchableOpacity>
 
@@ -287,7 +288,7 @@ export default MusicPlayer;
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#222831',
+    backgroundColor: Colors.background,
   },
   mainContainer: {
     flex: 1,
