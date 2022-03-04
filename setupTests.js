@@ -3,7 +3,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 jest.mock('react-native/Libraries/EventEmitter/NativeEventEmitter');
 jest.mock('react-native-vector-icons/Ionicons', () => 'Icon');
-jest.mock('react-native-vector-icons/MaterialCommunityIcons', () => 'Icon');
+jest.mock('react-native-vector-icons/MaterialCommunityIcons', () => 'Icon'); 
 
 jest.mock('react-native-track-player', () => {
  return {
@@ -37,6 +37,13 @@ jest.mock('react-native-track-player', () => {
    getBufferedPosition: jest.fn(),
    getState: jest.fn(),
    getRate: jest.fn(),
+   Capability: jest.fn(),
+   Event: jest.fn(),
+   RepeatMode: jest.fn(),
+   State: jest.fn(),
+   usePlaybackState: jest.fn(),
+   useProgress: jest.fn(),
+   useTrackPlayerEvents: jest.fn(),
  };
 });
 
