@@ -153,6 +153,7 @@ const MusicPlayer = () => {
       <Animated.View style={style.mainWrapper}>
         <View style={[style.imageWrapper, style.elevation]}>
           <Image
+            testID={"banner"}
             //   source={item.artwork}
             source={trackArtwork}
             style={style.musicImage}
@@ -191,10 +192,10 @@ const MusicPlayer = () => {
 
         {/* Title & Artist Name */}
         <View>
-          <Text style={[style.songContent, style.songTitle]}>
+          <Text testID={"name_music"} style={[style.songContent, style.songTitle]}>
             {/* {songs[songIndex].title} */ trackTitle}
           </Text>
-          <Text style={[style.songContent, style.songArtist]}>
+          <Text testID={"artist"} style={[style.songContent, style.songArtist]}>
             {/* {songs[songIndex].artist} */ trackArtist}
           </Text>
         </View>
@@ -202,6 +203,7 @@ const MusicPlayer = () => {
         {/* songslider */}
         <View>
           <Slider
+            testID={"slider"}
             style={style.progressBar}
             value={progress.position}
             minimumValue={0}
@@ -216,12 +218,12 @@ const MusicPlayer = () => {
 
           {/* Progress Durations */}
           <View style={style.progressLevelDuraiton}>
-            <Text style={style.progressLabelText}>
+            <Text testID={"counter_zero"} style={style.progressLabelText}>
               {new Date(progress.position * 1000)
                 .toLocaleTimeString()
                 .substring(3)}
             </Text>
-            <Text style={style.progressLabelText}>
+            <Text testID={"counter_duration"} style={style.progressLabelText}>
               {new Date((progress.duration - progress.position) * 1000)
                 .toLocaleTimeString()
                 .substring(3)}
@@ -231,10 +233,10 @@ const MusicPlayer = () => {
 
         {/* music control */}
         <View style={style.musicControlsContainer}>
-          <TouchableOpacity onPress={skipToPrevious}>
+          <TouchableOpacity testID={"back"} onPress={skipToPrevious}>
             <Ionicons name="play-skip-back-outline" size={35} color={Colors.primary} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => togglePlayBack(playBackState)}>
+          <TouchableOpacity testID={"pause_play"} onPress={() => togglePlayBack(playBackState)}>
             <Ionicons
               name={
                 playBackState === State.Playing
@@ -245,7 +247,7 @@ const MusicPlayer = () => {
               color={Colors.primary}
             />
           </TouchableOpacity>
-          <TouchableOpacity onPress={skipToNext}>
+          <TouchableOpacity testID={"next"} onPress={skipToNext}>
             <Ionicons
               name="play-skip-forward-outline"
               size={35}
@@ -258,11 +260,11 @@ const MusicPlayer = () => {
       {/* bottom section */}
       <View style={style.bottomSection}>
         <View style={style.bottomIconContainer}>
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity testID={"heart"} onPress={() => {}}>
             <Ionicons name="heart-outline" size={30} color="#888888" />
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={changeRepeatMode}>
+          <TouchableOpacity testID={"repeat"} onPress={changeRepeatMode}>
             <MaterialCommunityIcons
               name={`${repeatIcon()}`}
               size={30}
@@ -270,11 +272,11 @@ const MusicPlayer = () => {
             />
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity testID={"share"} onPress={() => {}}>
             <Ionicons name="share-outline" size={30} color="#888888" />
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => {}}>
+          <TouchableOpacity testID={"menu"} onPress={() => {}}>
             <Ionicons name="ellipsis-horizontal" size={30} color="#888888" />
           </TouchableOpacity>
         </View>
