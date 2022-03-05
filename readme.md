@@ -8,7 +8,7 @@
 
 ## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
 
-![captura_phantom](https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png)
+<image src="https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png"></image>
 
 ## Imagem aqui 
 ## Video aqui
