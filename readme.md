@@ -8,6 +8,11 @@
 
 ## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
 
+
+
+## Imagem aqui 
+## Video aqui
+
 ### ✔️ Técnicas e tecnologias utilizadas
 
 - ``Enzyme``
