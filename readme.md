@@ -4,7 +4,17 @@
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/snyk/vulnerabilities/github/Edullk/app_music_tests)
 
-## Aplicativo de música completo em react-native CLI com as funcionalidades de:
+## Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
+* Enzyme
+* Detox
+
+## :hammer: Funcionalidades do projeto
+
  * reproduzir/pausar
  * próxima/anterior
  * diferentes tipos de modos de repetição/loop.
+
+
+## 🛠️ Abrir e rodar o projeto
+
+**Apresente as instruções necessárias para abrir e executar o projeto**
