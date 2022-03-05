@@ -4,9 +4,16 @@
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/snyk/vulnerabilities/github/Edullk/app_music_tests)
 
-## Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
-* Enzyme
-* Detox
+> :construction: Projeto em construção :construction:
+
+## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``Enzyme``
+- ``Detox``
+- ``React-native CLI``
+
 
 ## :hammer: Funcionalidades do projeto
 
