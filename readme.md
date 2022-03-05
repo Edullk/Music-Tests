@@ -6,7 +6,7 @@
 
 > :construction: Projeto em construção :construction:
 
-## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
+# :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
