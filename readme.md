@@ -6,22 +6,22 @@
 
 > :construction: Projeto em construção :construction:
 
-# :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
+## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
 
-## ✔️ Técnicas e tecnologias utilizadas
+### ✔️ Técnicas e tecnologias utilizadas
 
 - ``Enzyme``
 - ``Detox``
 - ``React-native CLI``
 
 
-## :hammer: Funcionalidades do projeto
+### :hammer: Funcionalidades do projeto
 
  * reproduzir/pausar
  * próxima/anterior
  * diferentes tipos de modos de repetição/loop.
 
 
-## 🛠️ Abrir e rodar o projeto
+### 🛠️ Abrir e rodar o projeto
 
 **Apresente as instruções necessárias para abrir e executar o projeto**
