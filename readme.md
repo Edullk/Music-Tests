@@ -35,6 +35,7 @@
 **Apresente as instruções necessárias para abrir e executar o projeto**
 
 
+##CENARIOS ONDE FORAM APLICACAOS OS TESTES:
 
 ### Inicio do app
 
