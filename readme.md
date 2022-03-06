@@ -39,13 +39,40 @@
 1. Para instalar o projeto, começe instalando em sua máquina o projeto com o git:
 
 ```sh
-git clone https://gitlab.com/elastic_brasil/app-e-lastic-react.git
+git clone https://github.com/Edullk/app_music_tests.git
 ```
 2. Depois do projeto baixado, você pode abri-lo com o editor da sua preferência. Aconselho usar o VsCode ou o WebStorm.
 
 3. rode o comando ```yarn install```, para instalar todas as dependências do projeto.
 
+## Rodando os testes unitários: 
+1. rode o comando ```yarn test```, para testar todos os componentes ou ```yarn test [nome_test]``` para rodar um teste especifico.
+* Todos os testes unitários estão localizados na pasta ```__tests__```
 
+## Rodando os testes E2E
+
+1. Atualizando o arquivo .detoxrc.json com o nome do seu emulador
+
+```json
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "configurations": {
+    "android.emu.debug": {
+      "type": "android.emulator",
+      "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+      "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd ..",
+      "device": {
+        "avdName": "NOME DO SEU EMULADOR"
+      }
+    }
+  }
+}
+```
+
+2. rode o comando ```yarn detox_build``` para gerar o APK especifico para os testes
+1. rode o comando ```yarn detox_test```, para testar todos os componentes ou ```yarn test [nome_test]``` para rodar um teste especifico.
+* Todos os testes unitários estão localizados na pasta ```e2e```
 
 
 
