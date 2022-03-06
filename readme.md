@@ -21,20 +21,23 @@
 - ``TDD``
 - ``BDD``
 
+### :point_left: <a href="/BDD.md">Cenários de testes</a> :point_right:
 
 ### :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `PLAY`: Reproduz a música.
+- `PAUSE`: Pausa a música.
+- `PULAR`: Pula para próxima música da playlist.
+- `VOLTAR`: Voltar para música anterior da playlist.
+- `LOOP`: Repete a música que está tocando sempre
+- `LOOP 1X`: Repete a música que está tocando 1x
 
 
 ### 🛠️ Abrir e rodar o projeto
 
 **Apresente as instruções necessárias para abrir e executar o projeto**
 
-<a href="/BDD.md">Cenários de testes</a>
+
 
 
 
