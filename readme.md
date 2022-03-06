@@ -73,6 +73,10 @@ git clone https://github.com/Edullk/app_music_tests.git
 1. rode o comando ```yarn detox_test```, para testar todos os componentes ou ```yarn test [nome_test]``` para rodar um teste especifico.
 * Todos os testes unitários estão localizados na pasta ```e2e```
 
+## Autores
 
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  
+[<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  
+| :---: | :---: | :---: |
 
 
