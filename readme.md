@@ -34,8 +34,7 @@
 
 **Apresente as instruções necessárias para abrir e executar o projeto**
 
-## Cenários de testes
-<a href="/BDD.md">CSS Tutorial</a>
+<a href="/BDD.md">Cenários de testes</a>
 
 
 
