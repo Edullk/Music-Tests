@@ -75,7 +75,7 @@ git clone https://github.com/Edullk/app_music_tests.git
 
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |
+| [<img src="https://avatars.githubusercontent.com/u/67022479?s=400&u=6fa0854f1a72a2040b0f4a125ba70af66cd5c1da&v=4" width=115><br><sub>Eduardo Oliveira</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/31440705?v=4" width=115><br><sub>Helton Wylammi</sub>](https://github.com/guilhermeonrails) |
 | :---: | :---: |
 
 
