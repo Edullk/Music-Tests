@@ -18,6 +18,8 @@
 - ``Enzyme``
 - ``Detox``
 - ``React-native CLI``
+- ``TDD``
+- ``BDD``
 
 
 ### :hammer: Funcionalidades do projeto
