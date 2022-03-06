@@ -21,7 +21,7 @@
 - ``TDD``
 - ``BDD``
 
-### :point_left: <a href="/BDD.md">Cenários de testes</a> :point_right:
+### :point_right: <a href="/BDD.md">Cenários de testes</a> :point_left: 
 
 ### :hammer: Funcionalidades do projeto
 
