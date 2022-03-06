@@ -33,3 +33,12 @@
 ### 🛠️ Abrir e rodar o projeto
 
 **Apresente as instruções necessárias para abrir e executar o projeto**
+
+
+
+| QUANDO | App é aberto |
+| --- | --- |
+| DADO QUE  | Carregue com sucesso |
+| ENTÃO | Primeira musica com nome, artista e banner deve aparecer |
+| E | Contador esquerdo zerado |
+| E | Contador direito com o valor > 0 |
