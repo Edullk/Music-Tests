@@ -21,7 +21,8 @@
 - ``TDD``
 - ``BDD``
 
-### :point_right: <a href="/BDD.md">Cenários de testes</a> :point_left: 
+### :point_right: <a href="/BDD.md">Cenários de testes</a> :point_left:
+
 
 ### :hammer: Funcionalidades do projeto
 
@@ -33,9 +34,17 @@
 - `LOOP 1X`: Repete a música que está tocando 1x
 
 
-### 🛠️ Abrir e rodar o projeto
+### 🛠️ Preparando o ambiente e rodando o projeto
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
+1. Para instalar o projeto, começe instalando em sua máquina o projeto com o git:
+
+```sh
+git clone https://gitlab.com/elastic_brasil/app-e-lastic-react.git
+```
+2. Depois do projeto baixado, você pode abri-lo com o editor da sua preferência. Aconselho usar o VsCode ou o WebStorm.
+
+3. rode o comando ```yarn install```, para instalar todas as dependências do projeto.
+
 
 
 
