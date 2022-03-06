@@ -10,9 +10,6 @@
 
 <image style="width: 300px; heigth: 300px" src="https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png"></image>
 
-## Imagem aqui 
-## Video aqui
-
 ### ✔️ Técnicas e tecnologias utilizadas
 
 - ``Enzyme``
