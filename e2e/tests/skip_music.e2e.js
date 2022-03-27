@@ -1,4 +1,4 @@
-describe('Tests play music', () => {
+describe('Tests skip music', () => {
 
   beforeAll(async () => {
     await device.launchApp();
