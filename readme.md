@@ -2,7 +2,6 @@
 <br>
 ![Badge License](https://img.shields.io/github/license/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
-![Badge issues](https://img.shields.io/snyk/vulnerabilities/github/Edullk/app_music_tests)
 
 > :construction: Projeto em construção :construction:
 
