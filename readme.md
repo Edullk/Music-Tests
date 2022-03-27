@@ -2,7 +2,6 @@
 <br>
 ![Badge License](https://img.shields.io/github/license/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
-![Badge issues](https://img.shields.io/snyk/vulnerabilities/github/Edullk/app_music_tests)
 
 > :construction: Projeto em construção :construction:
 
@@ -72,10 +71,5 @@ git clone https://github.com/Edullk/app_music_tests.git
 2. rode o comando ```yarn detox_build``` para gerar o APK especifico para os testes
 1. rode o comando ```yarn detox_test```, para testar todos os componentes ou ```yarn test [nome_test]``` para rodar um teste especifico.
 * Todos os testes unitários estão localizados na pasta ```e2e```
-
-## Autores
-
-| [<img src="https://avatars.githubusercontent.com/u/67022479?s=400&u=6fa0854f1a72a2040b0f4a125ba70af66cd5c1da&v=4" width=115><br><sub>Eduardo Oliveira</sub>](https://github.com/Edullk) |  [<img src="https://avatars.githubusercontent.com/u/31440705?v=4" width=115><br><sub>Helton Wylammi</sub>](https://github.com/Heltonphg) |
-| :---: | :---: |
 
 
