@@ -202,7 +202,7 @@ const MusicPlayer = () => {
 
         {/* songslider */}
         <View>
-          <Slider
+          <Slider               
             testID={"slider"}
             style={style.progressBar}
             value={progress.position}

@@ -4,7 +4,7 @@ describe('Tests play music', () => {
     await device.launchApp();
   });
 
-  it('Tests play music', async () => {
+  it('Tests play song', async () => {
     await new Promise((r) => setTimeout(r, 2000))
     await element(by.id('pause_play')).tap();
     await new Promise((r) => setTimeout(r, 2000))

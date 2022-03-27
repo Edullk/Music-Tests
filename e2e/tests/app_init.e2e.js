@@ -4,7 +4,7 @@
       await device.launchApp();
     });
   
-    it('Check screen and music attributes', async () => {
+    it('Check screen and song attributes', async () => {
       await expect(element(by.id('banner'))).toBeVisible();
       await expect(element(by.id('name_music'))).toBeVisible();
       await expect(element(by.id('artist'))).toBeVisible();

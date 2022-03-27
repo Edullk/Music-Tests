@@ -4,7 +4,7 @@ describe('Tests skip music', () => {
     await device.launchApp();
   });
 
-  it('Tests skip music PAUSED', async () => {
+  it('Tests skip music song', async () => {
     await new Promise((r) => setTimeout(r, 2000))
     const attributeNameMusic = await element(by.id('name_music')).getAttributes();
     const attributeArtistMusic = await element(by.id('artist')).getAttributes();
@@ -15,7 +15,7 @@ describe('Tests skip music', () => {
     await expect(element(by.id('counter_zero'))).toHaveText('00:00');
   });
 
-  it('Tests skip music PLAYING', async () => {
+  it('Tests skip music song', async () => {
     await new Promise((r) => setTimeout(r, 2000))
     const attributeNameMusic = await element(by.id('name_music')).getAttributes();
     const attributeArtistMusic = await element(by.id('artist')).getAttributes();

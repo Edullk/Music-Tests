@@ -1,4 +1,4 @@
-describe('Tests back music', () => {
+describe('Tests back song', () => {
 
   beforeAll(async () => {
     await device.launchApp();
@@ -13,7 +13,7 @@ describe('Tests back music', () => {
     await element(by.id('next')).tap();
   });
 
-  it('Tests back music PAUSED', async () => {
+  it('Tests back song PAUSED', async () => {
     await new Promise((r) => setTimeout(r, 2000))
     const attributeNameMusic = await element(by.id('name_music')).getAttributes();
     const attributeArtistMusic = await element(by.id('artist')).getAttributes();
@@ -24,7 +24,7 @@ describe('Tests back music', () => {
     await expect(element(by.id('counter_zero'))).toHaveText('00:00');
   });
 
-  it('Tests back music PLAYING', async () => {
+  it('Tests back song PLAYING', async () => {
     await new Promise((r) => setTimeout(r, 2000))
     const attributeNameMusic = await element(by.id('name_music')).getAttributes();
     const attributeArtistMusic = await element(by.id('artist')).getAttributes();
