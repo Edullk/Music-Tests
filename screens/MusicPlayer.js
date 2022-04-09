@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   View,
   Text,
@@ -26,7 +26,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import songs from '../model/data';
 import { Colors } from '../assets/colors';
 
-const {width, height} = Dimensions.get('window');
+const { width, height } = Dimensions.get('window');
 
 const setupPlayer = async () => {
   try {
@@ -75,7 +75,7 @@ const MusicPlayer = () => {
   useTrackPlayerEvents([Event.PlaybackTrackChanged], async event => {
     if (event.type === Event.PlaybackTrackChanged && event.nextTrack !== null) {
       const track = await TrackPlayer.getTrack(event.nextTrack);
-      const {title, artwork, artist} = track;
+      const { title, artwork, artist } = track;
       setTrackTitle(title);
       setTrackArtist(artist);
       setTrackArtwork(artwork);
@@ -120,7 +120,7 @@ const MusicPlayer = () => {
   useEffect(() => {
     setupPlayer();
 
-    scrollX.addListener(({value}) => {
+    scrollX.addListener(({ value }) => {
       //   console.log(`ScrollX : ${value} | Device Width : ${width} `);
 
       const index = Math.round(value / width);
@@ -148,7 +148,7 @@ const MusicPlayer = () => {
     });
   };
 
-  const renderSongs = ({item, index}) => {
+  const renderSongs = ({ item, index }) => {
     return (
       <Animated.View style={style.mainWrapper}>
         <View style={[style.imageWrapper, style.elevation]}>
@@ -182,11 +182,11 @@ const MusicPlayer = () => {
             [
               {
                 nativeEvent: {
-                  contentOffset: {x: scrollX},
+                  contentOffset: { x: scrollX },
                 },
               },
             ],
-            {useNativeDriver: true},
+            { useNativeDriver: true },
           )}
         />
 
@@ -202,7 +202,7 @@ const MusicPlayer = () => {
 
         {/* songslider */}
         <View>
-          <Slider               
+          <Slider
             testID={"slider"}
             style={style.progressBar}
             value={progress.position}
@@ -260,7 +260,7 @@ const MusicPlayer = () => {
       {/* bottom section */}
       <View style={style.bottomSection}>
         <View style={style.bottomIconContainer}>
-          <TouchableOpacity testID={"heart"} onPress={() => {}}>
+          <TouchableOpacity testID={"heart"} onPress={() => { }}>
             <Ionicons name="heart-outline" size={30} color="#888888" />
           </TouchableOpacity>
 
@@ -272,11 +272,13 @@ const MusicPlayer = () => {
             />
           </TouchableOpacity>
 
-          <TouchableOpacity testID={"share"} onPress={() => {}}>
+          <TouchableOpacity testID={"share"} onPress={() => { }}>
             <Ionicons name="share-outline" size={30} color="#888888" />
           </TouchableOpacity>
 
-          <TouchableOpacity testID={"menu"} onPress={() => {}}>
+          <TouchableOpacity
+            testID={"menu"}
+            onPress={() => { TrackPlayer.seekTo(progress.duration) }}>
             <Ionicons name="ellipsis-horizontal" size={30} color="#888888" />
           </TouchableOpacity>
         </View>
