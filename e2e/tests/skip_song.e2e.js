@@ -24,7 +24,7 @@ describe('Tests skip music', () => {
     await element(by.id('next')).tap();
     await new Promise((r) => setTimeout(r, 3000))
     await element(by.id('pause_play')).tap();
-    await expect(element(by.id('counter_zero'))).toHaveText('00:03');
+    await expect(element(by.id('counter_zero'))).toHaveText('00:02');
     await expect(element(by.id('name_music'))).not.toHaveValue(attributeNameMusic.text);
     await expect(element(by.id('artist'))).not.toHaveValue(attributeArtistMusic.text);
   });

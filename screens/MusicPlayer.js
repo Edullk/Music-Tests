@@ -59,6 +59,7 @@ const togglePlayBack = async playBackState => {
 };
 
 const MusicPlayer = () => {
+  
   const playBackState = usePlaybackState();
   const progress = useProgress();
   //   custom states
@@ -114,7 +115,11 @@ const MusicPlayer = () => {
   };
 
   const skipTo = async trackId => {
-    await TrackPlayer.skip(trackId);
+    try{
+      await TrackPlayer.skip(trackId);
+    }catch(e){
+      console.log(e)
+    }
   };
 
   useEffect(() => {
@@ -173,7 +178,7 @@ const MusicPlayer = () => {
           ref={songSlider}
           renderItem={renderSongs}
           data={songs}
-          keyExtractor={item => item.id}
+          keyExtractor={item => item?.id}
           horizontal
           pagingEnabled
           showsHorizontalScrollIndicator={false}
