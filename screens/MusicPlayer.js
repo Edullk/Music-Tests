@@ -7,7 +7,6 @@ import {
   Dimensions,
   TouchableOpacity,
   Image,
-  FlatList,
   Animated,
 } from 'react-native';
 
