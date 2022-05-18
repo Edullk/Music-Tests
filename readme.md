@@ -7,9 +7,14 @@
 
 ## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
 
-<image style="width: 300px; heigth: 300px" src="https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png"></image>
 
-<image style="width: 300px; heigth: 300px" src="/assets/run_test.gif"></image>
+
+<div style="display: flex">
+  <image style="width: 300px; heigth: 300px" src="https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png"></image>
+  <image style="width: 300px; heigth: 300px" src="/assets/run_test.gif"></image>
+<div/>
+
+
 
 
 ### ✔️ Técnicas e tecnologias utilizadas
