@@ -5,7 +5,7 @@
 
 > :construction: Projeto em construção :construction:
 
-## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
+## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes E2E:
 
 
 
@@ -19,7 +19,6 @@
 
 ### ✔️ Técnicas e tecnologias utilizadas
 
-- ``Enzyme``
 - ``Detox``
 - ``React-native CLI``
 - ``TDD``
@@ -50,10 +49,6 @@ git clone https://github.com/Edullk/app_music_tests.git
 3. rode o comando ```yarn install```, para instalar todas as dependências do projeto.
 
 <hr>
-
-## Rodando os testes unitários: 
-1. rode o comando ```yarn test```, para testar todos os componentes ou ```yarn test [nome_test]``` para rodar um teste especifico.
-* Todos os testes unitários estão localizados na pasta ```__tests__```
 
 ## Rodando os testes E2E
 
