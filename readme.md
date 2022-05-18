@@ -9,7 +9,7 @@
 
 <image style="width: 300px; heigth: 300px" src="https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png"></image>
 <video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
+  <source src="./assets/run_test.mp4" type="video/mp4">
 </video>
 
 ### ✔️ Técnicas e tecnologias utilizadas
