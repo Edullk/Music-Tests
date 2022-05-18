@@ -26,6 +26,7 @@ import songs from '../model/data';
 import { Colors } from '../assets/colors';
 
 const { width, height } = Dimensions.get('window');
+console.log(width)
 
 const setupPlayer = async () => {
   try {
@@ -69,7 +70,9 @@ const MusicPlayer = () => {
   const [trackArtwork, setTrackArtwork] = useState();
   // custom referecnces
   const scrollX = useRef(new Animated.Value(0)).current;
+  console.log(scrollX);
   const songSlider = useRef(null);
+
 
   //   changing the track on complete
   useTrackPlayerEvents([Event.PlaybackTrackChanged], async event => {

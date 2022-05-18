@@ -1,15 +1,15 @@
- import React from 'react';
- import App from '../App';
- import MusicPlayer from '../screens/MusicPlayer';
- import { shallow } from 'enzyme';
+import React from 'react';
+import App from '../App';
+import MusicPlayer from '../screens/MusicPlayer';
+import { shallow } from 'enzyme';
 
-//  jest.mock('@react-native-community/slider', () => {
-//   return {
-//     slider: 
-//   }
-//  });
- 
- jest.mock('react-native-track-player', () => {
+jest.mock('@react-native-community/slider', () => {
+  return {
+    Slider: jest.fn()
+  }
+});
+
+jest.mock('react-native-track-player', () => {
   return {
     addEventListener: jest.fn(),
     registerEventHandler: jest.fn(),
@@ -44,25 +44,41 @@
 
     usePlaybackState: jest.fn(),
     useProgress: () => {
-      return {position: 0 }
+      return { position: 0 }
     },
     useTrackPlayerEvents: jest.fn(),
     Event: jest.fn(),
   };
 });
 
+jest.mock('./__mocks__/animeted.js');
+
 jest.mock('react-native', () => {
+
   return {
-    Animated: () => {
-      return {event: jest.fn()}
+
+    StyleSheet: {
+      create: () => ({}),
+    },
+
+
+    Dimensions: {
+      get: () => {
+        return {
+          width: 375,
+          height: 667
+        }
+      }
     }
   }
+
 });
- 
 
- const wrapper = shallow(<MusicPlayer />);
 
- it('renders correctly', () => {
-   const { debug } = render(wrapper);
-   debug();
- });
+
+const wrapper = shallow(<MusicPlayer />);
+
+it('renders correctly', () => {
+  const { debug } = render(wrapper);
+  debug();
+});
