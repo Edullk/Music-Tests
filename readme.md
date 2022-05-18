@@ -3,8 +3,6 @@
 ![Badge License](https://img.shields.io/github/license/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
 
-> :construction: Projeto em construção :construction:
-
 ## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes E2E:
 
 
