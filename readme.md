@@ -3,15 +3,13 @@
 ![Badge License](https://img.shields.io/github/license/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
 
-> :construction: Projeto em construção :construction:
-
-## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes unitários e E2E:
+## :iphone: Aplicativo de músicas em react-native CLI com stacks de testes E2E:
 
 
 
 <div style="display: flex">
   <image style="width: 300px; heigth: 300px" src="https://user-images.githubusercontent.com/67022479/156898321-926b48af-7c10-4e8c-934a-21eb50cf5518.png"></image>
-  <image style="width: 700px; heigth: 700" src="/assets/terminal.png"></image>
+  <image style="width: 600px; heigth: 600" src="/assets/run_test.gif">GIF</image>
 <div/>
 
 
@@ -19,7 +17,6 @@
 
 ### ✔️ Técnicas e tecnologias utilizadas
 
-- ``Enzyme``
 - ``Detox``
 - ``React-native CLI``
 - ``TDD``
@@ -50,10 +47,6 @@ git clone https://github.com/Edullk/app_music_tests.git
 3. rode o comando ```yarn install```, para instalar todas as dependências do projeto.
 
 <hr>
-
-## Rodando os testes unitários: 
-1. rode o comando ```yarn test```, para testar todos os componentes ou ```yarn test [nome_test]``` para rodar um teste especifico.
-* Todos os testes unitários estão localizados na pasta ```__tests__```
 
 ## Rodando os testes E2E
 
