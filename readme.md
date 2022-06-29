@@ -1,4 +1,4 @@
-![banenr](https://user-images.githubusercontent.com/67022479/156891123-d5afe5db-cd18-4ec3-af04-a272869430b6.png)
+![Preto e Amarelo Esportes Masculinos Capa para Facebook](https://user-images.githubusercontent.com/67022479/176323892-e5cd8b14-bb1e-4466-9f10-03844c70ea3b.png)
 <br>
 ![Badge License](https://img.shields.io/github/license/Edullk/app_music_tests)
 ![Badge issues](https://img.shields.io/github/issues/Edullk/app_music_tests)
